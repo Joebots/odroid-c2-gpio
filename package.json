@@ -3,15 +3,16 @@
   "version": "0.0.1",
   "description": "odroid u3+ gpio library",
   "main": "lib/gpiou3p.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "odroid",
     "gpio"
   ],
   "author": "haocong",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haocong/odroid-gpiou3p.git"
+    },
   "dependencies": {
     "posix": "^4.0.1"
   }
