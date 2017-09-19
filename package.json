@@ -1,13 +1,13 @@
 {
-  "name": "odroid-gpiou3p",
-  "version": "0.0.3",
-  "description": "odroid u3+ gpio library",
+  "name": "odroid-c2-gpio",
+  "version": "0.0.1",
+  "description": "Odroid C2 gpio library",
   "main": "lib/gpio.js",
   "keywords": [
     "odroid",
     "gpio"
   ],
-  "author": "haocong",
+  "author": "Joebotics",
   "license": "MIT",
   "repository": {
     "type": "git",
