@@ -2,7 +2,7 @@
   "name": "odroid-gpiou3p",
   "version": "0.0.3",
   "description": "odroid u3+ gpio library",
-  "main": "lib/gpiou3p.js",
+  "main": "lib/gpio.js",
   "keywords": [
     "odroid",
     "gpio"
@@ -11,9 +11,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/haocong/odroid-gpiou3p.git"
+    "url": "https://github.com/Joebots/odroid-c2-gpio.git"
     },
   "dependencies": {
-    "posix": "^4.0.1"
   }
 }

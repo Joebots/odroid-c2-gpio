@@ -1,4 +1,4 @@
-var gpio = require('./lib/gpiou3p.js');
+var gpio = require('./lib/gpio.js');
 
 gpio.setup(gpio.PIN.GPIO204, gpio.DIRECTION.OUT); // export pin204
 gpio.write(gpio.PIN.GPIO204, 1);                  // write 1 to pin204
