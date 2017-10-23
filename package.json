@@ -12,7 +12,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Joebots/odroid-c2-gpio.git"
-    },
+  },
   "dependencies": {
+    "thread-sleep": "^2.0.0"
   }
 }
