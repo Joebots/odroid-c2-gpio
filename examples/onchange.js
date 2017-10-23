@@ -4,6 +4,6 @@ var pin = "7";
 
 gpio.setup(pin, gpio.DIRECTION.IN);
 
-gpio.on('change', pin, function(value) {
-    console.log("Pin #" + pin + " is changed. New Value is " + value);
+gpio.on('change', function(pin, value, previousValue) {
+    console.log("Pin #" + pin + " is changed from " + previousValue + " to " + value);
 });
