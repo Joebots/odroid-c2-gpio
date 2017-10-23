@@ -1,6 +1,6 @@
 {
   "name": "odroid-c2-gpio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Odroid C2 gpio library",
   "main": "lib/gpio.js",
   "keywords": [
